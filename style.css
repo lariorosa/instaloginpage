@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 15px 0 0 0;
+    padding: 50px 40px 30px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+    margin: 0 -330px 0 35px;
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phone img {
+    height: 50rem;
+    width: 400px;
+    height: auto;
+}
+
+.wrapper .header{
+	max-width: 350px;
+	width: 100%;
+	height: auto;
+	margin: 50px auto;
+}
+
+.instagram-logo{
+    width: 175px;
+}
+
+.second-wrapper .header .top,
+.second-wrapper .signup{
+	background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    padding: 40px 60px 20px;
+}
+
+.second-wrapper .header .logo img{
+	display: block;
+	margin: 0 auto 35px;
+}
+
+.second-wrapper .header .form .input_field{
+	margin-bottom: 5px;
+}
+
+.second-wrapper .header .form .input_field .inpt{
+	width: 100%;
+	background: #fafafa;
+	border: 1px solid #efefef;
+	font-size: 12px;
+	border-radius: 3px;
+	color: #262626;
+	padding: 10px;
+}
+
+.second-wrapper .header .form .input_field .inpt:focus{
+	border: 1px solid #b2b2b2;
+}
+
+.second-wrapper .header .form .btn{
+	margin: 10px 0;
+	background-color: #cceeff;
+    border: 1px solid #cceeff;
+    border-radius: 4px;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.second-wrapper .header .form .btn a{
+	color: #fff;
+	display: block;
+}
+
+.second-wrapper .header .or{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 15px;
+	margin: 15px 0 20px;
+}
+
+.second-wrapper .header .or .line{
+	width: 105px;
+	height: 2px;
+	background: #efefef
+}
+
+.second-wrapper .header .or p{
+	color: #999;
+	font-size: 12px;
+    text-transform: uppercase;
+}
+
+.second-wrapper .facebook_login .fb{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.second-wrapper .facebook_login .fb img{
+	width: 16px;
+	height: 16px;
+}
+
+.second-wrapper .facebook_login .fb a{
+    font-size: 14px;
+}
+
+.second-wrapper .facebook_login .fb p{
+	color: #385185;
+	font-weight: 500;
+	margin-left: 10px;
+}
+
+.second-wrapper .facebook_login .forgot{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.second-wrapper .facebook_login .forgot a{
+	color: #385185;
+}
+
+.second-wrapper .signup{
+	margin: 10px 0 20px;
+	padding: 25px 40px;
+	text-align: center;
+	color: #262626;
+    font-size: 14px;
+}
+
+.second-wrapper .signup a{
+	color: #3897f0;
+}
+
+.second-wrapper .apps{
+	text-align: center;
+	color: #262626;
+}
+
+.second-wrapper .apps p{
+	margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.second-wrapper .apps a img{
+	width: 135px;
+	height: 40px;
+	margin: 0 5px;
+}
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.footer{
+	max-width: 935px;
+	margin: 0 auto;
+	padding: 40px 0;	
+    margin-top: 185px;
+}
+
+.footer .links ul li{
+	display: inline-block;
+	margin-right: 10px;
+    
+
+}
+
+.footer .links ul li a{
+	color: #999;
+	font-size: 12px;
+    
+}
+
+.footer .copyright{
+	color: #999;	
+    font-size: 12px;
+}
+
+.idioma{
+    color: #999;
+    font-size: 12px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
