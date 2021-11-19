@@ -222,3 +222,20 @@ footer{
     background-color: transparent;
     cursor: pointer;
 }
+
+/* media queries */
+
+
+@media (max-width: 450px) {
+
+body {
+        background-color: #ffffff;
+        margin-top: -50px;
+        margin-left: 40px;
+    }
+
+.instagram-phone{
+    display: none;
+}
+
+}
