@@ -229,13 +229,29 @@ footer{
 @media (max-width: 450px) {
 
 body {
-        background-color: #ffffff;
-        margin-top: -50px;
-        margin-left: 40px;
-    }
+    background-color: #ffffff;
+	width: auto;
+    margin-top: -50px;
+    margin-left: 300px;
+	overflow-y: hidden;
+}
 
 .instagram-phone{
     display: none;
 }
 
+.second-wrapper .header .top,
+.second-wrapper .signup{
+	background: #fff;
+    border: none;
+    padding: 40px 60px 20px;
+	overflow-y: hidden;
+}
+
+.second-wrapper .signup{
+	margin-top: -30px;
+}
+.footer{
+	margin-top: -75px;
+}
 }
