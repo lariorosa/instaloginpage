@@ -222,11 +222,9 @@ footer{
     background-color: transparent;
     cursor: pointer;
 }
-
-/* media queries */
-
-
-@media (max-width: 450px) {
+/* media queries*/
+	
+@media (max-width: 650px) {
 
 body {
     background-color: #ffffff;
@@ -252,6 +250,7 @@ body {
 	margin-top: -30px;
 }
 .footer{
+	width: auto;
 	margin-top: -75px;
 }
 }
